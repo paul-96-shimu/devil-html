@@ -5,10 +5,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>table</title>
+    <style>
+        table {
+            width: 1000px;
+            height: 500px;
+            border-collapse: collapse;
+            background-color: rgb(20, 220, 120);
+        }
+
+        td {
+            /* border: 10px solid #df121c; */
+            text-align: center;
+        }
+    </style>
 </head>
 
-<body>
 
+
+<body>
+    <table>
+        <tr>
+
+            <td>
+
+                <table style="width: 100%; height: 100%;">
+                    <tr>
+                        <td bgcolor="sky blue" style="width: 50%;border: 10px solid #d3cccd;">colum1</td>
+                        <td bgcolor="sky blue" style="width: 50%;border: 10px solid #d3cccd;">colum2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" bgcolor="sky blue" style="border: 10px solid #d3cccd;"> Row 2</td>
+                    </tr>
+                </table>
+            </td>
+
+            <td>
+
+                <table style="width: 100%; height: 100%;">
+
+
+
+
+                    <tr>
+                        <td colspan="2" bgcolor="green" style="border: 10px solid #d3cccd;"> Column3</td>
+                    </tr>
+                    <tr>
+
+                        <td bgcolor="green" style="width: 50%;border: 10px solid #d3cccd;">Column4</td>
+                        <td bgcolor="green" style="width: 50%;border: 10px solid #d3cccd;"> Column5</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" bgcolor="green" style="border: 10px solid #d3cccd;"> Row 3</td>
+                    </tr>
+                </table>
+            </td>
+
+
+            <td>
+
+                <table style="width: 100%; height: 100%;">
+                    <tr>
+
+                        <td colspan="3" bgcolor="yellow" style="border: 10px solid #d3cccd;"> Row 3</td>
+                    </tr>
+                    <tr>
+
+                        <td colspan="3" bgcolor="yellow" style="border: 10px solid #d3cccd;"> Row 4</td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="yellow" style="width: 33%; border: 10px solid #d3cccd;">Column 6</td>
+                        <td bgcolor="yellow" style="width: 33%;border: 10px solid #d3cccd;">Colum 7</td>
+                        <td bgcolor="yellow" style="width: 33%;border: 10px solid #d3cccd;"> Column 8</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 </body>
 
 </html>
